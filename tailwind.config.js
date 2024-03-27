@@ -5,7 +5,14 @@ export default {
     fontFamily: {
       rubik: ["Rubik", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        soft_Blue: "hsl(231, 69%, 60%)",
+        soft_Red: "hsl(0, 94%, 66%)",
+        grayish_Blue: "hsl(229, 8%, 60%)",
+        dark_Blue: " hsl(229, 31%, 21%)",
+      },
+    },
   },
   plugins: [],
 };
