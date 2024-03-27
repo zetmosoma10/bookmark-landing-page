@@ -12,7 +12,7 @@
 
 @layer base {
   .btn {
-    @apply font-medium active:scale-105 inline-block leading-7 m-5 tracking-[0.25px] shadow-sm px-4 py-[10px] rounded-md;
+    @apply font-medium active:scale-105 inline-block leading-7  tracking-[0.25px] shadow-sm px-4 py-[10px] rounded-md;
   }
 
   .btn-accent {
