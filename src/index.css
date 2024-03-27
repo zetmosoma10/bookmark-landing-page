@@ -11,6 +11,21 @@
 }
 
 @layer base {
+  .btn {
+    @apply font-medium active:scale-105 inline-block leading-7 m-5 tracking-[0.25px] shadow-sm px-4 py-[10px] rounded-md;
+  }
+
+  .btn-accent {
+    @apply bg-soft_Red text-white;
+  }
+
+  .btn-primary {
+    @apply bg-soft_Blue text-white;
+  }
+
+  .btn-secondary {
+    @apply bg-slate-200 text-dark_Blue opacity-75;
+  }
   .max-container {
     @apply max-w-[1110px] w-[90%] mx-auto;
   }
