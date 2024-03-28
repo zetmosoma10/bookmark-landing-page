@@ -19,3 +19,5 @@ export const extentionData = [
     text: "Minimum version 46",
   },
 ];
+
+export const navLinkList = ["Features", "Pricing", "Contact"];

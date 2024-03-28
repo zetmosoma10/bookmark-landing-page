@@ -15,7 +15,10 @@ const Extentions = () => {
       </header>
       <div className="flex flex-col md:flex-row md:justify-around gap-x-8 gap-y-10 mt-10">
         {extentionData.map((data) => (
-          <div className="flex flex-col items-center w-full rounded-2xl p-6  shadow-lg bg-white">
+          <div
+            key={data.icon}
+            className="flex flex-col items-center w-full rounded-2xl p-6 pt-12  shadow-lg bg-white"
+          >
             <div className="text-center  border-b  border-dotted pb-8">
               <img className="mx-auto" src={data.icon} alt="" />
               <h3 className=" text-xl mt-8 tracking-[0.25] font-medium">

@@ -20,7 +20,7 @@
   }
 
   .btn-primary {
-    @apply bg-soft_Blue text-white;
+    @apply bg-soft_Blue text-white transition-all hover:bg-transparent  hover:border hover:border-soft_Blue hover:text-soft_Blue  duration-100;
   }
 
   .btn-secondary {
