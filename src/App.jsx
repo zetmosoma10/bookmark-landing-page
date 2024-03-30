@@ -7,8 +7,7 @@ export default function App() {
   return (
     <section className="font-rubik bg-slate-50 ">
       <main className="">
-        {/* <Navbar /> */}
-        <MobileNavbar />
+        <Navbar />
       </main>
     </section>
   );

@@ -1,11 +1,15 @@
+import useToggle from "../hooks/useToggle";
+import MobileNavbar from "./MobileNavbar";
 import Button from "./Button";
 import Logo from "../Assets/images/logo-bookmark.svg";
-import { navLinkList } from "../constant";
 import hamburgerIcon from "../Assets/images/icon-hamburger.svg";
+import { navLinkList } from "../constant";
 
 const Navbar = () => {
+  const [open, toggle] = useToggle();
+
   return (
-    <header>
+    <header className="relative">
       <nav className="max-container flex items-center justify-between pt-6">
         <a href="#">
           <img src={Logo} alt="" />
@@ -26,10 +30,12 @@ const Navbar = () => {
             Login
           </Button>
         </div>
-        <div className="cursor-pointer md:hidden">
+        <div onClick={toggle} className="cursor-pointer md:hidden">
           <img src={hamburgerIcon} alt="" />
         </div>
       </nav>
+
+      {open && <MobileNavbar toggle={toggle} open={open} />}
     </header>
   );
 };
