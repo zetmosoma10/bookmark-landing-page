@@ -16,7 +16,7 @@
   }
 
   .btn-accent {
-    @apply bg-soft_Red text-white;
+    @apply bg-soft_Red text-white transition-all hover:text-soft_Red hover:bg-transparent hover:border hover:border-soft_Red duration-100;
   }
 
   .btn-primary {
@@ -24,7 +24,7 @@
   }
 
   .btn-secondary {
-    @apply bg-slate-200 text-dark_Blue opacity-75;
+    @apply bg-slate-200 transition-all text-dark_Blue opacity-75 duration-100;
   }
   .max-container {
     @apply max-w-[1110px] w-[90%] mx-auto;

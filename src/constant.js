@@ -1,6 +1,6 @@
-import chromeIcon from "../public/images/logo-chrome.svg";
-import firefoxIcon from "../public/images/logo-firefox.svg";
-import operaIcon from "../public/images/logo-opera.svg";
+import chromeIcon from "./Assets/images/logo-chrome.svg";
+import firefoxIcon from "./Assets/images/logo-firefox.svg";
+import operaIcon from "./Assets/images/logo-opera.svg";
 
 export const extentionData = [
   {
