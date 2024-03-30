@@ -1,5 +1,3 @@
-import { AiFillFacebook } from "react-icons/ai";
-import { RiTwitterXLine } from "react-icons/ri";
 import Button from "./Button";
 import Logo from "../Assets/images/logo-bookmark.svg";
 import { navLinkList } from "../constant";
