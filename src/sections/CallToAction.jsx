@@ -5,7 +5,6 @@ import { useState } from "react";
 const CallToAction = () => {
   const [input, setInput] = useState("");
   const [isValid, setIsValid] = useState(true);
-  console.log("email:" + input);
 
   const handleChange = (e) => {
     const { value } = e.target;
