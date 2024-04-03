@@ -3,8 +3,8 @@ import { extentionData } from "../constant";
 
 const Extentions = () => {
   return (
-    <section className="text-dark_Blue">
-      <header className="text-center">
+    <section className="mt-[90px] flex flex-col  lg:mt-[130px] text-dark_Blue w-[90%] max-w-[1110px] mx-auto ">
+      <header className="text-center max-w-[540px] self-center ">
         <h2 className="  font-medium text-2xl lg:text-3xl leading-10 tracking-[-0.08px] lg:tracking-[-0.1px] ">
           Download the extension
         </h2>
@@ -13,11 +13,11 @@ const Extentions = () => {
           you’ve got a favourite you’d like us to prioritize.
         </p>
       </header>
-      <div className="flex flex-col md:flex-row md:justify-around gap-x-8 gap-y-10 mt-10">
+      <div className="flex flex-col items-center lg:flex-row lg:justify-around gap-x-8 gap-y-10 mt-10">
         {extentionData.map((data) => (
           <div
             key={data.icon}
-            className="flex flex-col items-center w-full rounded-2xl p-6 pt-12  shadow-lg bg-white"
+            className="max-w-[400px] lg:max-w-auto  flex  flex-col items-center w-full rounded-2xl p-6 pt-12  shadow-lg bg-white"
           >
             <div className="text-center  border-b  border-dotted pb-8">
               <img className="mx-auto" src={data.icon} alt="" />

@@ -29,19 +29,19 @@ const CallToAction = () => {
   };
 
   return (
-    <section className="flex flex-col items-center   bg-soft_Blue text-slate-50">
-      <div className="text-center max-container max-w-[442px] my-14 md:my-[75px]">
+    <section className="mt-[123px] lg:mt-[150px] flex flex-col items-center   bg-soft_Blue text-slate-50">
+      <div className="text-center max-container max-w-[442px] my-14 lg:my-[75px]">
         <p className="text-sm font-medium leading-10 tracking-[4.62px]">
           35,000+ ALREADY JOINED
         </p>
-        <h3 className="text-2xl md:text-3xl font-medium leading-7 md:leading-10 tracking-[-0.08px] md:tracking-[-0.1px]">
+        <h3 className="text-2xl lg:text-3xl font-medium leading-7 lg:leading-10 tracking-[-0.08px] lg:tracking-[-0.1px]">
           Stay up-to-date with what we’re doing
         </h3>
         <form
           onSubmit={handleSubmit}
-          className="md:mt-8 md:flex md:items-start md:gap-4"
+          className="lg:mt-8 lg:flex lg:items-start lg:gap-4"
         >
-          <div className="flex-grow  mt-8 md:mt-0  ">
+          <div className="flex-grow  mt-8 lg:mt-0  ">
             <div
               style={{
                 border: isValid ? "" : "2px solid #FA5959",
@@ -72,7 +72,7 @@ const CallToAction = () => {
             ) : null}
           </div>
           <Button
-            className="leading-7 md:w-auto  hover:bg-white hover:bg-soft_Red tracking-[0.25px] mt-4 md:mt-0 w-full"
+            className="leading-7 lg:w-auto  hover:bg-white hover:bg-soft_Red tracking-[0.25px] mt-4 lg:mt-0 w-full"
             type="button"
             variant="red"
           >

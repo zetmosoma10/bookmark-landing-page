@@ -7,7 +7,7 @@ import { navLinkList } from "../constant";
 const MobileNavbar = ({ toggle, open }) => {
   return (
     <div
-      className={`fixed top-0 left-0 w-full bg-dark_Blue bg-opacity-95 md:hidden  text-slate-50  
+      className={`z-20 fixed top-0 left-0 w-full bg-dark_Blue bg-opacity-95 md:hidden  text-slate-50  
       transform ${
         open ? " translate-x-0" : "translate-x-full"
       } duration-500 transition-transform`}

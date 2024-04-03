@@ -4,9 +4,9 @@ import { RiTwitterXLine } from "react-icons/ri";
 
 const Footer = () => {
   return (
-    <footer className=" text-slate-50 py-10 md:py-8  bg-dark_Blue">
-      <div className="max-container flex flex-col md:flex-row md:justify-between md:items-center items-center">
-        <div className="md:flex md:items-center md:space-x-16">
+    <footer className=" text-slate-50 py-10 lg:py-8  bg-dark_Blue">
+      <div className="max-container flex flex-col lg:flex-row lg:justify-between lg:items-center items-center">
+        <div className="lg:flex lg:items-center lg:space-x-16">
           <a href="#home">
             <svg
               className="fill-red"
@@ -30,7 +30,7 @@ const Footer = () => {
               </g>
             </svg>
           </a>
-          <ul className="md:flex items-center mt-10 md:mt-0 text-center space-y-8 md:space-y-0 md:space-x-10 uppercase text-base md:text-sm tracking-[1.73px]">
+          <ul className="lg:flex items-center mt-10 lg:mt-0 text-center space-y-8 lg:space-y-0 lg:space-x-10 uppercase text-base lg:text-sm tracking-[1.73px]">
             {navLinkList.map((link) => (
               <li className=" hover:text-soft_Red duration-100" key={link}>
                 <a href="#">{link}</a>
@@ -38,7 +38,7 @@ const Footer = () => {
             ))}
           </ul>
         </div>
-        <div className="flex items-center space-x-10 mt-12 md:mt-0 md:space-x-6">
+        <div className="flex items-center space-x-10 mt-12 lg:mt-0 lg:space-x-6">
           <a href="#" className="text-2xl hover:text-soft_Red duration-100">
             <AiFillFacebook />
           </a>

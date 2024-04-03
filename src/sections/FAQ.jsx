@@ -14,7 +14,7 @@ const FAQ = () => {
   };
 
   return (
-    <section className="max-container max-w-[540px] text-center flex flex-col items-center text-dark_Blue">
+    <section className="mt-[140px] lg:mt-[150px] max-container max-w-[540px] text-center flex flex-col items-center text-dark_Blue">
       <h2 className="text-2xl md:text-3xl text-center font-medium leading-7 md:leading-10 tracking-[-0.08px] md:tracking-[-0.1px]">
         Frequently Asked Questions
       </h2>
