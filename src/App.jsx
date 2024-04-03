@@ -6,10 +6,14 @@ import Hero from "./sections/Hero";
 
 export default function App() {
   return (
-    <section className="font-rubik bg-slate-50 ">
-      <main>
+    <>
+      <main className="font-rubik">
         <Hero />
+        {/* <Extentions /> */}
+        {/* <FAQ /> */}
+        {/* <CallToAction /> */}
+        {/* <Footer /> */}
       </main>
-    </section>
+    </>
   );
 }

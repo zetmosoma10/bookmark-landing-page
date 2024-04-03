@@ -5,14 +5,21 @@ import herobgImg from "../Assets/images/hero-rectangle.svg";
 const Hero = () => {
   return (
     <section
-      className="relative max-container  grid md:grid-cols-[50%,50%]
-         justify-items-center md:justify-items-start gap-y-24"
+      className="max-w-[1110px] px-4 w-[90%] mx-auto    grid md:grid-cols-[50%,50%]
+         justify-items-center md:justify-items-start md:items-center gap-y-24"
     >
-      <img
-        className="order-1 md:order-2 w-full md:w-auto md:max-w-[600px]"
-        src={heroImg}
-        alt="tablet image"
-      />
+      <div className="order-1 md:order-2 relative">
+        <img
+          className=" w-full md:w-auto md:max-w-[600px]"
+          src={heroImg}
+          alt="tablet image"
+        />
+        <img
+          src={herobgImg}
+          className="absolute bottom-0  md:bottom-[-30%] right-[-25%]  -z-10"
+          alt=""
+        />
+      </div>
       <div className="order-2 md:order-1 text-center md:text-left">
         <h1 className="font-medium text-3xl md:text-5xl leading-10 md:leading-[52px] tracking-[-0.09px] tracking-[-0.15px] ">
           A Simple Bookmark Manager
